@@ -1,0 +1,8 @@
+node_modules/
+.env
+*.js
+*.d.ts
+!dist/index.js
+!dist/index.d.ts
+dist/
+*.tgz

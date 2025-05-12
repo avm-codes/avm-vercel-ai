@@ -1,0 +1,39 @@
+# Source files
+*.ts
+!*.d.ts
+
+# Development files
+.git/
+.gitignore
+.env
+.env.*
+*.log
+coverage/
+.nyc_output/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build files (except the final dist)
+build/
+!dist/
+
+# Test files
+test/
+__tests__/
+*.test.ts
+*.spec.ts
+
+# Example files
+example/
+
+# Development configs
+tsconfig.json
+.eslintrc*
+.prettierrc*
+.editorconfig
+
+# Misc
+.DS_Store
+*.tgz 

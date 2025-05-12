@@ -1,0 +1,42 @@
+{
+  "name": "@avm-ai/avm-vercel-ai",
+  "version": "1.0.0",
+  "main": "dist/base/index.js",
+  "types": "dist/base/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "avm",
+    "vercel",
+    "ai",
+    "python",
+    "typescript"
+  ],
+  "author": "AVM AI",
+  "license": "MIT",
+  "description": "A TypeScript-compliant npm package for running Python scripts using the AVM API, designed to be integrated into the Vercel AI SDK as a tool.",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.3.22",
+    "ai": "^4.3.15",
+    "dotenv": "^16.5.0",
+    "zod": "^3.24.4"
+  }
+}
